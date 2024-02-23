@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(0, 0, 255, 0.27);
+    background-size: cover;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  h3{
+    font-size: 30px;
+    text-align: center; 
+  }
+ 
+.form1, .gender, .send {
+  width: 300px;
+  height: 100px;
+  display: block;
+  text-align: left;
+  margin: 20px;
+}
+.cyty{
+    width: 300px;
+    height: 10px;
+    display: block;
+    text-align: left;
+    margin: 20px;   
+}
+
+
