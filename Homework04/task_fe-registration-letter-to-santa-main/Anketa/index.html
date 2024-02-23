@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css ">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../greetings/greetings.html">
+    <div>
+        <h1>Письмо Санте</h1>
+    </div>
+    <div>
+        <h3>Дорогой друг расскажи Санте о том, что ты хочешь на рождество</h3>
+    </div>
+    <div class="form1">
+        <div>
+            <input type="name" name="name" placeholder="Имя">
+        </div>
+<br>
+        <div>
+            <input required type="login" name="login" placeholder="Логин">
+        </div>
+<br>
+        <div>
+            <input type="password" name="password" placeholder="Пароль"> 
+        </div>
+    </div>
+    <div  class="gender">
+        <div>Пол:</div>
+        <div>
+            <input id="gender_male" type="radio" name="gender">
+            <label for="gender_male">Мальчик</label>
+        </div>
+        <div>
+            <input id="gender_female" type="radio" name="gender">
+            <label for="gender_female">Девочка</label>
+        </div>
+        <div>
+            <br>
+            <label for="birthDate">Дни Рождения</label>
+            <input type="date" id="birthDate" name="birthDate">
+        </div>
+    </div>
+    <br>
+       <div class="cyty">
+        <select>
+            <option value="Erevan">Ереван</option>
+            <option selected value="Amsterdam">Амстердам</option>
+            <option value="Zugdidi">Зугдиди</option>
+        </select>
+    </div>
+        
+   <div class="send">
+        <div>Ты был хорошим ребёнком?</div>
+        <div>
+            <input type="radio" name="answer" id="YES">
+            <label for="YES">Да</label>
+        </div>
+        <div>
+            <input type="radio" name="answer" id="NO">
+            <label for="NO">Нет</label>
+        </div>
+        <button type="submit"><Отправить письмо Санте></button>
+        <button type="reset">Очистить</button>
+    </div>
+    </form>
+    </div>
+    
+</body>
+</html>

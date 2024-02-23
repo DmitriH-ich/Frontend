@@ -1,0 +1,43 @@
+
+body {
+    background-color: rgba(0, 0, 255, 0.27);
+    background-size: cover;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  height: auto;
+}
+div {
+  font-size: 20px;
+  margin: 20px;
+}
+div span {
+    display: block;
+    text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  color: blueviolet;
+}
+footer {
+  margin: 100px;
+}
+/* .container {
+  background: url("./image/scale_1200.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+} 
+тут я не справился с настройками. Хотел зделать фон бледным/ еле видимым,
+но в конце концов заблудился и потерял кучу времени. Opacyty и Transparent 
+мне не помогли*/
