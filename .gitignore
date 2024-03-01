@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# Ignore Visual Studio Code settings
+.vscode/settings.json
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Build files
+dist/
+build/
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Personal configuration files
+.editorconfig
+.eslintrc
