@@ -61,3 +61,9 @@ const newCars6 = cars.map((car) => {
     return car;
 });
 console.log(newCars6);
+
+//                        на уроке:
+const newCars7 = cars.map((car) => 
+    car.isDiesel ? {brand: "Tesla", price: 25000, isDiesel: false} : car
+);
+console.log(newCars7);
